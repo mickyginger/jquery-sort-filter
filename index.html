@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery Sorting &amp; Filtering</title>
+  <link rel="stylesheet" type="text/css" href="/css/app.css">
+  <script type="text/javascript" src="/js/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript" src="/js/app.js"></script>
+</head>
+<body>
+
+  <form>
+    <select>
+      <option value="firstname asc">First Name (A-Z)</option>
+      <option value="firstname desc">First Name (Z-A)</option>
+      <option value="lastname asc">Last Name (A-Z)</option>
+      <option value="lastname desc">Last Name (Z-A)</option>
+      <option value="age asc">Age (Youngest First)</option>
+      <option value="age desc">Age (Oldest First)</option>
+    </select>
+
+    <input placeholder="Search">
+  </form>
+
+  <ul>
+    <li data-firstname="Mike" data-lastname="Hayden" data-age="35">Mike Hayden, 35</li>
+    <li data-firstname="Alex" data-lastname="Chin" data-age="27">Alex Chin, 27</li>
+    <li data-firstname="Ollie" data-lastname="Holden" data-age="23">Ollie Holden, 23</li>
+    <li data-firstname="Rane" data-lastname="Gowan" data-age="21">Rane Gowan, 21</li>
+  </ul>
+</body>
+</html>
